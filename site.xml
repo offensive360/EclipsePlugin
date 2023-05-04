@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description name="O360 Update Site" url="https://offensive360.com/update-site">
+   <description name="O360 Update Site" url="https://github.com/offensive360/EclipsePlugin/raw/main">
       Updates fo this plugin will be available here
    </description>
-   <feature url="features/com.offenisve360.sastfeature_1.0.0.v1alpha.jar" id="com.offenisve360.sastfeature" version="1.0.0.v1alpha">
+   <feature url="features/com.offenisve360.sastfeature_1.2.0.v1stable.jar" id="com.offenisve360.sastfeature" version="1.2.0.v1stable">
       <category name="Scan bugs"/>
    </feature>
    <category-def name="Scan bugs" label="scan bugs">
