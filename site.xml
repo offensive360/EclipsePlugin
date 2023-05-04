@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="O360 Update Site" url="https://offensive360.com/update-site">
+      Updates fo this plugin will be available here
+   </description>
+   <feature url="features/com.offenisve360.sastfeature_1.0.0.v1alpha.jar" id="com.offenisve360.sastfeature" version="1.0.0.v1alpha">
+      <category name="Scan bugs"/>
+   </feature>
+   <category-def name="Scan bugs" label="scan bugs">
+      <description>
+         scan bugs
+      </description>
+   </category-def>
+</site>
