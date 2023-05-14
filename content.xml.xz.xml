@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.2.0'?>
+<repository name='O360 Update Site' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1683486376499'/>
+    <property name='p2.compressed' value='true'/>
+  </properties>
+  <references size='2'>
+    <repository uri='https://github.com/offensive360/EclipsePlugin/raw/main' url='https://github.com/offensive360/EclipsePlugin/raw/main' type='0' options='0'/>
+    <repository uri='https://github.com/offensive360/EclipsePlugin/raw/main' url='https://github.com/offensive360/EclipsePlugin/raw/main' type='1' options='0'/>
+  </references>
+  <units size='4'>
+    <unit id='com.offensive360.sastplugin' version='2.1.0' generation='2'>
+      <update id='com.offensive360.sastplugin' range='[0.0.0,2.1.0)' severity='0'/>
+      <properties size='4'>
+        <property name='df_LT.Bundle-Name' value='com.o360.sastplugin'/>
+        <property name='df_LT.Bundle-Vendor' value='offensive360'/>
+        <property name='org.eclipse.equinox.p2.name' value='%Bundle-Name'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%Bundle-Vendor'/>
+      </properties>
+      <provides size='44'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.offensive360.sastplugin' version='2.1.0'/>
+        <provided namespace='osgi.bundle' name='com.offensive360.sastplugin' version='2.1.0'/>
+        <provided namespace='java.package' name='.' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.annotation' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.async' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.base' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.exc' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.filter' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.format' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.io' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.io.doubleparser' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.io.schubfach' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.json' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.json.async' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.sym' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.type' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.core.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.annotation' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.cfg' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.deser' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.deser.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.deser.std' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.exc' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.ext' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.introspect' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.jdk14' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.json' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsonFormatVisitors' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsonschema' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsontype' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsontype.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.module' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.node' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.ser' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.ser.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.ser.std' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.type' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.fasterxml.jackson.databind.util.internal' version='0.0.0'/>
+        <provided namespace='osgi.identity' name='com.offensive360.sastplugin' version='2.1.0'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='15'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='3.18.100'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='3.22.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='3.16.600'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='3.20.0'/>
+        <required namespace='osgi.bundle' name='org.apache.httpcomponents.httpcore' range='4.4.15'/>
+        <required namespace='osgi.bundle' name='org.apache.httpcomponents.httpclient' range='4.5.13'/>
+        <required namespace='osgi.bundle' name='javax.annotation' range='1.3.5'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jdt.core' range='3.32.0'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.annotation' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.core' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='com.fasterxml.jackson.databind' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.inject' range='0.0.0'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+          <description>
+            com.offensive360.sastplugin
+          </description>
+        </requiredProperties>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.offensive360.sastplugin' version='2.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.offensive360.sastplugin;singleton:=true&#xA;Bundle-Version: 2.1.0
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.offenisve360.sastfeature.feature.jar' version='2.1.0'>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='com.offenisve360.sastfeature'/>
+        <property name='org.eclipse.equinox.p2.description' value='A plugin by offensive360 which runs scan on project without compilation&#xA;and reports vulnerabilities,malware and many more which attacks&#xA;source code.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='https://offensive360.com/how-o360-works/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='offenisve360'/>
+        <property name='org.eclipse.update.feature.plugin' value='com.offensive360.sastplugin'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.offenisve360.sastfeature.feature.jar' version='2.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.offenisve360.sastfeature' version='2.1.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.offenisve360.sastfeature' version='2.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='https://offensive360.com/terms-of-use' url='https://offensive360.com/terms-of-use'>
+          Terms of Use&#xA;1. Terms&#xA;By accessing this Website, accessible from https://offensive360.com/, you agree to be bound by these Website Terms and Conditions of Use. You agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trademark law.&#xA;&#xA;2. Use License&#xA;Permission is granted to temporarily download one copy of the materials on Offensive 360’s Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license, you may not:&#xA;&#xA;modify or copy the materials;&#xA;use the materials for any commercial purpose or for any public display;&#xA;attempt to reverse engineer any software contained on Offensive 360’s Website;&#xA;remove any copyright or other proprietary notations from the materials; or&#xA;transferring the materials to another person or “mirror” the materials on any other server.&#xA;This will let Offensive 360 terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated, and you should destroy any downloaded materials in your possession, whether printed or electronic format.
+        </license>
+      </licenses>
+      <copyright uri='https://offensive360.com/' url='https://offensive360.com/'>
+        @Copyright Offensive360
+      </copyright>
+    </unit>
+    <unit id='com.offenisve360.sastfeature.feature.group' version='2.1.0' singleton='false'>
+      <update id='com.offenisve360.sastfeature.feature.group' range='[0.0.0,2.1.0)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='com.offenisve360.sastfeature'/>
+        <property name='org.eclipse.equinox.p2.description' value='A plugin by offensive360 which runs scan on project without compilation&#xA;and reports vulnerabilities,malware and many more which attacks&#xA;source code.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='https://offensive360.com/how-o360-works/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='offenisve360'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.offenisve360.sastfeature.feature.group' version='2.1.0'/>
+      </provides>
+      <requires size='13'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='3.3.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.resources' range='3.18.100'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface.text' range='3.22.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.workbench.texteditor' range='3.16.600'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.ide' range='3.20.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.httpcomponents.httpcore' range='4.4.15'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.httpcomponents.httpclient' range='4.5.13'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='javax.annotation' range='1.3.5'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.core' range='3.32.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='javax.inject' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.offensive360.sastplugin' range='[2.1.0,2.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.offenisve360.sastfeature.feature.jar' range='[2.1.0,2.1.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='https://offensive360.com/terms-of-use' url='https://offensive360.com/terms-of-use'>
+          Terms of Use&#xA;1. Terms&#xA;By accessing this Website, accessible from https://offensive360.com/, you agree to be bound by these Website Terms and Conditions of Use. You agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trademark law.&#xA;&#xA;2. Use License&#xA;Permission is granted to temporarily download one copy of the materials on Offensive 360’s Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license, you may not:&#xA;&#xA;modify or copy the materials;&#xA;use the materials for any commercial purpose or for any public display;&#xA;attempt to reverse engineer any software contained on Offensive 360’s Website;&#xA;remove any copyright or other proprietary notations from the materials; or&#xA;transferring the materials to another person or “mirror” the materials on any other server.&#xA;This will let Offensive 360 terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated, and you should destroy any downloaded materials in your possession, whether printed or electronic format.
+        </license>
+      </licenses>
+      <copyright uri='https://offensive360.com/' url='https://offensive360.com/'>
+        @Copyright Offensive360
+      </copyright>
+    </unit>
+    <unit id='O360 SAST' version='1.0.0.41-cMarvE'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='O360 SAST'/>
+        <property name='org.eclipse.equinox.p2.description' value='SAST plugin which helps your source code free of vulnerabilities'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='O360 SAST' version='1.0.0.41-cMarvE'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.offenisve360.sastfeature.feature.group' range='[2.1.0,2.1.0]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+  </units>
+</repository>
