@@ -19,7 +19,7 @@
 <ul>
 <li>Goto <b>Help-&gt;Install New Software</b> to enter plugin installation page</li>
 <li>Now copy below link and paste it to the field</li>
-<li> Plugin Update Site link <a href=""><bold>https://github.com/offensive360/EclipseExt/raw/main</bold></a></li>
+<li> Plugin Update Site link <a href=""><bold>https://github.com/offensive360/EclipsePlugin/raw/main</bold></a></li>
 <li>Now you will be able to see O360 SAST feature click on it and install</li>
 <li>Uncheck check for updates checkbox before installing</li>
 </ul>
