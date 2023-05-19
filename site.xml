@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description name="O360 Update Site" url="https://github.com/offensive360/EclipsePlugin/raw/main">
+   <description name="O360 Update Site" url="https://offensive360.com/eclipseplugin/">
       Updates fo this plugin will be available here
    </description>
    <feature url="features/com.offenisve360.sastfeature_2.1.0.jar" id="com.offenisve360.sastfeature" version="2.1.0">
