@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <!-- <description name="O360 Update Site" url="https://offensive360.com/eclipseplugin/">
+   <description name="O360 Update Site" url="https://github.com/offensive360/EclipsePlugin/raw/main">
       Updates fo this plugin will be available here
-   </description> -->
-   <feature url="features/com.offenisve360.sastfeature_2.1.0.jar" id="com.offenisve360.sastfeature" version="2.1.0">
+   </description>
+   <feature url="features/com.offensive360.sastfeature_2.1.0.jar" id="com.offensive360.sastfeature" version="2.1.0">
       <category name="O360 SAST"/>
    </feature>
    <category-def name="O360 SAST" label="O360 SAST">
