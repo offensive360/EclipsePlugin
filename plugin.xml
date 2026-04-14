@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="com.offensive360.sastplugin" name="%extension-point.name" />
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="%category.name"
+            id="o360sastplugin.Category">
+      </category>
+      <view
+            category="o360sastplugin.Category"
+            class="com.o360.sastplugin.views.ReportView"
+            icon="icons/Offensive360.png"
+            id="o360sastplugin.views.ReportView"
+            inject="true"
+            name="%view.name"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <view
+               closeable="false"
+               id="o360sastplugin.views.ReportView"
+               minimized="true"
+               moveable="false"
+               ratio="0.88"
+               relationship="bottom"
+               relative="org.eclipse.ui.views.ProblemView"
+               standalone="true"
+               visible="true">
+         </view>
+      </perspectiveExtension>
+   </extension>
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="META-INF/contexts.xml">
+      </contexts>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.menus">
+         <menuContribution
+               allPopups="false"
+               locationURI="popup:org.eclipse.ui.navigator.ProjectExplorer#PopupMenu">
+            <menu
+                  id="menuO360"
+                  label="%menu.label"
+                  tooltip="%menu.tooltip"
+                  icon="icons/Offensive360.png">
+               <command
+                     commandId="o360sastplugin.commands.scanCommand"
+                     id="scancommand"
+                     label="%command.label"
+                     icon="icons/Offensive360.png"
+                     style="push"
+                     tooltip="%command.tooltip">
+               </command>
+               <command
+                     commandId="o360sastplugin.commands.settingsCommand"
+                     id="settingscommand"
+                     label="%command.label.0"
+                     icon="icons/settings.png"
+                     style="push"
+                     tooltip="%command.tooltip.0">
+               </command>
+            </menu>
+         </menuContribution>
+
+         <menuContribution
+            locationURI="toolbar:org.eclipse.ui.trim.status">
+         <toolbar
+               id="org.eclipse.ui.examples.contributions.verticalTrim">
+            <command
+                  commandId="o360sastplugin.commands.scanCommand"
+                  id="O360 Tool"
+                  icon="icons/Offensive360.png"
+                  label="O360 Scan"
+                  style="push"
+                  tooltip="%command.tooltip">
+            </command>
+            <command
+                  commandId="o360sastplugin.commands.settingsCommand"
+                  icon="icons/settings.png"
+                  id="O360 Settings Tool"
+                  label="O360 Settings"
+                  style="push"
+                  tooltip="%command.tooltip.0">
+            </command>
+         </toolbar>
+      </menuContribution>
+
+          <menuContribution
+               allPopups="false"
+               locationURI="popup:org.eclipse.jdt.ui.PackageExplorer">
+            <menu
+                  id="menuO360"
+                  label="%menu.label.0"
+                  tooltip="%menu.tooltip.0"
+                  icon="icons/Offensive360.png">
+            </menu>
+            </menuContribution>
+          <menuContribution
+                allPopups="false"
+                locationURI="toolbar:org.eclipse.ui.main.toolbar">
+             <toolbar
+                   id="O360SastPlugin.toolbar1"
+                   label="O360 ToolBar">
+             </toolbar>
+          </menuContribution>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.commands">
+         <command
+               defaultHandler="com.o360.sastplugin.handlers.ScanHandler"
+               description="%command.description"
+               id="o360sastplugin.commands.scanCommand"
+               name="%command.name">
+         </command>
+         <command
+               defaultHandler="com.o360.sastplugin.handlers.SettingsHandler"
+               description="%command.description.0"
+               id="o360sastplugin.commands.settingsCommand"
+               name="%command.name.0">
+         </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="o360sastplugin.commands.scanCommand"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+ALT+S">
+      </key>
+      <key
+            commandId="o360sastplugin.commands.settingsCommand"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+ALT+D">
+      </key>
+   </extension>
+   <extension
+         id="com.o360.plugin.startup"
+         name="O360 Startup"
+         point="org.eclipse.ui.startup">
+      <startup
+            class="com.o360.sastplugin.Startup">
+      </startup>
+   </extension>
+</plugin>
